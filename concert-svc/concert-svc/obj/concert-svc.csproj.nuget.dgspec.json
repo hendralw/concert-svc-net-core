@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project Apps\\.net-core\\concert-svc\\concert-svc\\concert-svc.csproj": {}
+    "D:\\Project Apps\\concert-svc-mandiri\\concert-svc\\concert-svc\\concert-svc.csproj": {}
   },
   "projects": {
-    "D:\\Project Apps\\.net-core\\concert-svc\\concert-svc\\concert-svc.csproj": {
+    "D:\\Project Apps\\concert-svc-mandiri\\concert-svc\\concert-svc\\concert-svc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project Apps\\.net-core\\concert-svc\\concert-svc\\concert-svc.csproj",
+        "projectUniqueName": "D:\\Project Apps\\concert-svc-mandiri\\concert-svc\\concert-svc\\concert-svc.csproj",
         "projectName": "concert-svc",
-        "projectPath": "D:\\Project Apps\\.net-core\\concert-svc\\concert-svc\\concert-svc.csproj",
+        "projectPath": "D:\\Project Apps\\concert-svc-mandiri\\concert-svc\\concert-svc\\concert-svc.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\Project Apps\\.net-core\\concert-svc\\concert-svc\\obj\\",
+        "outputPath": "D:\\Project Apps\\concert-svc-mandiri\\concert-svc\\concert-svc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",

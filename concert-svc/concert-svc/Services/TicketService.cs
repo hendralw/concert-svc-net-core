@@ -103,9 +103,11 @@ namespace concert_svc.Services
         {
             try
             {
-                var checkticket = await _db.Ticket.FirstOrDefaultAsync(x => x.concert_id.Equals(request.concert_id) && x.type.Equals(request.type)) ?? throw new Exception("ticket for this concert type is exist");
-                if (checkticket != null)
+                var checkTicketType = await _db.Ticket.FirstOrDefaultAsync(x => x.concert_id.Equals(request.concert_id) && x.type.Equals(request.type)) ?? throw new Exception("ticket for this concert type is exist");
+                if (checkTicketType != null)
                     throw new Exception("ticket for this concert type is exist");
+
+                var checkTicketExist = await _db.Ticket.FirstOrDefaultAsync(x => x.concert_id.Equals(request.concert_id)) ?? throw new Exception("concert not found, please check your concert_id");
 
                 var ticket = new Ticket
                 {
