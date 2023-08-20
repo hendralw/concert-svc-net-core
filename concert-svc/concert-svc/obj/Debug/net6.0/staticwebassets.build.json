@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "DITvHLEW/a9dmaoi5kNpfolrW2eZETcoqIpHEthIwGk=",
+  "Source": "concert-svc",
+  "BasePath": "_content/concert-svc",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
